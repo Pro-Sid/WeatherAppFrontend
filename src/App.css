@@ -1,0 +1,14 @@
+.card{
+    padding: 16px 16px 16px 16px;
+}
+
+.weatherIcon{
+    margin: -35px 0 0 -35px;
+    width: 120;
+    height: 120;
+}
+
+.cityName{
+    float: right;
+    margin-right: 4px;
+}
