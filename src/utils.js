@@ -18,7 +18,7 @@ export const getColor = (index) => map.get(index);
 
 // API Call to get weather data
 export const getTemperature = async (city) => {
-  const proxyUrl = "http://localhost:5000/";
+  const proxyUrl = "https://cors-sid-weather.netlify.app/.netlify/functions/api/";
   const apiData = {};
   const url = `${proxyUrl}day?`;
   const nextDayUrl = `${proxyUrl}nextDay?`;
